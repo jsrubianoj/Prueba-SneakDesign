@@ -173,4 +173,29 @@ article img {
 i {
   color: #c2cfd7;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+    column-count: 2;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .container {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+    column-count: 1;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
